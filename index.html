@@ -11,7 +11,9 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <a href="#maincontent" class="skip-link" style="position:absolute; left:-10000px; top:auto; width:1px; height:1px; overflow:hidden;">Skip to content</a>
+    <nav class="navbar" aria-label="Main navigation">
+
         <a href="#home" class="nav-logo">Orchid Gallery</a>
         <ul class="nav-menu">
             <li class="nav-item"><a href="#phalaenopsis" class="nav-link">Phalaenopsis</a></li>
@@ -24,32 +26,35 @@
         </ul>
     </nav>
 
+    <main id="maincontent">
 
-    <div class="gallery">
-        <div class="image" id="phalaenopsis"><img src="images\Phalaenopsis-Orchid.webp" alt="Phalaenopsis Orchid">
-            <p>Phalaenopsis Orchid</p>
+        <div class="gallery">
+            <div class="image" id="phalaenopsis"><img src="images\Phalaenopsis-Orchid.webp" alt="Phalaenopsis Orchid">
+                <p>Phalaenopsis Orchid</p>
+            </div>
+            <div class="image" id="cattleya"><img src="images\Cattleya-Orchid.webp" alt="Cattleya Orchid">
+                <p>Cattleya Orchid</p>
+            </div>
+            <div class="image" id="dendrobium"><img src="images\Dendrobium-Orchid.webp" alt="Dendrobium Orchid">
+                <p>Dendrobium Orchid</p>
+            </div>
+            <div class="image" id="oncidium"><img src="images\Oncidium-Orchid.webp" alt="Oncidium Orchid">
+                <p>Oncidium Orchid</p>
+            </div>
+            <div class="image" id="paphiopedilum"><img src="images\Paphiopedilum-Orchid.webp" alt="Paphiopedilum Orchid">
+                <p>Paphiopedilum Orchid</p>
+            </div>
+            <div class="image" id="vanda"><img src="images\Vanda-Orchid.webp" alt="Vanda Orchid">
+                <p>Vanda Orchid</p>
+            </div>
+            <div class="image" id="miltonia"><img src="images\Miltonia-Orchid.webp" alt="Miltonia Orchid">
+                <p>Miltonia Orchid</p>
+            </div>
         </div>
-        <div class="image" id="cattleya"><img src="images\Cattleya-Orchid.webp" alt="Cattleya Orchid">
-            <p>Cattleya Orchid</p>
-        </div>
-        <div class="image" id="dendrobium"><img src="images\Dendrobium-Orchid.webp" alt="Dendrobium Orchid">
-            <p>Dendrobium Orchid</p>
-        </div>
-        <div class="image" id="oncidium"><img src="images\Oncidium-Orchid.webp" alt="Oncidium Orchid">
-            <p>Oncidium Orchid</p>
-        </div>
-        <div class="image" id="paphiopedilum"><img src="images\Paphiopedilum-Orchid.webp" alt="Paphiopedilum Orchid">
-            <p>Paphiopedilum Orchid</p>
-        </div>
-        <div class="image" id="vanda"><img src="images\Vanda-Orchid.webp" alt="Vanda Orchid">
-            <p>Vanda Orchid</p>
-        </div>
-        <div class="image" id="miltonia"><img src="images\Miltonia-Orchid.webp" alt="Miltonia Orchid">
-            <p>Miltonia Orchid</p>
-        </div>
-    </div>
+    </main>
 
     <script src="script.js"></script>
+    <script src="script2.js"></script>
 </body>
 
 </html>

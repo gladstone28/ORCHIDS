@@ -158,3 +158,35 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.skip-link: focus {
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    z-index: 1000;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+body,
+html {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    body,
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    body,
+    html {
+        font-size: 12px;
+    }
+}

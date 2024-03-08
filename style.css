@@ -5,6 +5,22 @@ html {
     font-family: Arial, sans-serif;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+    color: #2a9d8f;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -117,4 +133,28 @@ ul {
         display: block;
         text-align: center;
     }
+}
+
+.navbar a:hover,
+.nav-link:hover {
+    background-color: #a7c957;
+    color: #ffffff;
+}
+
+.button {
+    background-color: #f55c47;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2a9d8f;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }

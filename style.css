@@ -83,6 +83,16 @@ ul {
     width: 100%;
 }
 
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Ensure this value is higher than the z-index of other elements */
+}
+
 
 /* Navigation links */
 

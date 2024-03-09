@@ -200,3 +200,18 @@ html {
         font-size: 12px;
     }
 }
+
+nav a,
+footer a {
+    color: #007BFF;
+    /* Change the color according to your design */
+    text-decoration: none;
+    /* Removes the underline */
+    font-weight: bold;
+}
+
+nav a:hover,
+footer a:hover {
+    text-decoration: underline;
+    /* Adds an underline on hover for visual feedback */
+}
